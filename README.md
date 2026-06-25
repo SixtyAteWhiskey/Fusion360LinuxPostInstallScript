@@ -1,6 +1,12 @@
 # Fusion360 Linux Post Install Script
 Unofficial helper script for running Autodesk Fusion 360 on Linux using Steam Proton
 
+**AI DISCLAIMER**
+ChatGPT generated the script. I confrimed usability.
+
+<img width="818" height="284" alt="image" src="https://github.com/user-attachments/assets/2356ab65-5925-4cb2-baaa-51a44f78823d" />
+
+
 The post-install script:
 
 - Finds an existing Fusion 360 install inside a Steam Proton prefix
