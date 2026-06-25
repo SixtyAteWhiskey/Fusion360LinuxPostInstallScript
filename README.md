@@ -1,4 +1,4 @@
-# Fusion360LinuxPostInstallScript
+# Fusion360 Linux Post Install Script
 Unofficial helper script for running Autodesk Fusion 360 on Linux using Steam Proton
 
 The post-install script:
