@@ -31,7 +31,7 @@ sudo apt install -y curl rsync
 
 # Installation
 
-Step 1: Download Fusion Client Downloader
+## Step 1: Download Fusion Client Downloader
 
 Download Fusion Client Downloader.exe from Autodesk:
 
@@ -43,7 +43,7 @@ Do not place the installer in this repo.
 
 ---
 
-Step 2: Install Fusion through Steam Proton
+## Step 2: Install Fusion through Steam Proton
 
 - Open Steam.
 - Add Fusion Client Downloader.exe as a non-Steam game.
@@ -59,7 +59,7 @@ Do not remove the Steam entry yet.
 
 ---
 
-Step 3: Run the post-install script
+## Step 3: Run the post-install script
 
 From this repo:
 ```
@@ -76,7 +76,7 @@ The script will create:
 ```
 ---
 
-Step 4: Launch Fusion
+## Step 4: Launch Fusion
 
 Run:
 
@@ -88,7 +88,7 @@ Fusion should launch through Proton with the WebView2 fixes applied.
 
 ---
 
-Step 5: Sign in
+## Step 5: Sign in
 
 When Fusion opens, click Sign In.
 
@@ -100,7 +100,7 @@ A sign-in error may appear even after sign-in succeeds. If Fusion shows your acc
 
 ---
 
-Step 6: Optional Steam shortcut
+## Step 6: Optional Steam shortcut
 
 After confirming the launcher works, you can add this file to Steam as a new non-Steam game:
 
@@ -113,7 +113,7 @@ For this new Steam shortcut:
 
 The wrapper script already launches Proton correctly.
 
-**Important warning**
+## Important warning
 
 Do not delete the original Steam installer/Fusion entry until after the post-install script has copied the Proton prefix and ~/.local/bin/fusion360-launch has been tested.
 
